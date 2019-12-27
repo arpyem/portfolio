@@ -1,0 +1,305 @@
+
+body {
+      background-color: #000000;
+      font-size: 1.75em;
+      height: 100%;
+}
+
+/*
+html {
+      height: 100%;
+}
+*/
+
+@font-face {
+      font-family: "hn";
+      src: url("HelveticaNeue Light.ttf");
+}
+
+
+.nav>li>a:hover {
+      background-color: #0d2244;
+}
+
+.tabbable > .nav > li[class=active] > a {
+      background-color: #13346b;
+}
+
+
+
+.b {
+      padding: 15px 15px 15px 15px;
+      margin: 15px 15px 15px 15px;
+}
+
+.i {
+      display: block;
+      float: left;
+}
+
+.mr {
+      margin-right: 2%;
+}
+
+.ml {
+      margin-left: 2%;
+}
+
+.mb {
+      margin-bottom: 15px;
+}
+
+.mt {
+      margin-top: 15px;
+}
+
+
+
+.shadow {
+      background-color: #282828;
+      color: white;
+      padding: 15px;
+      /*box-shadow: 0 1px 3px rgba(132, 132, 132, 0.12), 0 1px 2px rgba(132, 132, 132, 0.24);*/
+      /*transition: all 0.025s cubic-bezier(.25,.8,.25,1);*/
+      /*transition: transform .2s; */
+}
+
+.shadow:hover {
+      /*box-shadow: 0 5px 15px rgba(132, 132, 132, 0.75), 0 3px 9px rgba(132, 132, 132, 0.25);*/
+      /*transform: scale(1.01);*/
+}
+
+
+
+
+.info {
+      text-align: center; 
+      padding: 1%;
+      color: white; 
+      background-color: #000000; 
+      font-size: 2em;
+      cursor: pointer;
+      border: 2px solid #282828;
+      transition: all 0.5s ease; 
+}
+
+
+.info:hover {
+      /*transform: scale(1.01);*/
+      background-color: #13346b;
+      border: 2px solid #13346b;
+}
+
+
+
+
+
+.glow {
+      transition: all 0.5s ease-in-out;
+}
+
+.glow:hover {
+      background-color: #424141;
+}
+
+
+
+
+
+.fa-dashboard {
+      color: white;
+}
+
+.fa-plus {
+      color: white;
+}
+
+.fa-gears {
+      color: white;
+}
+
+
+
+
+@keyframes wobble {
+      from {
+            transform: translateY(0px);
+      }
+      to {
+            transform: translateY(5px);
+      }
+}
+
+.wobble {
+      animation-name: wobble;
+      animation-duration: 1s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+}
+
+@keyframes shimmer {
+      from {
+            background-color: #424141;
+      }
+      to {
+            background-color: #34384c;
+      }
+}
+
+.shimmer {
+      animation-name: shimmer;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+}
+
+
+
+
+
+
+#symbol {
+      color: white;
+      background-color: black;
+      height: 50px;
+}
+
+#index {
+      color: white;
+}
+
+table.dataTable tbody tr.active td {
+      background-color: #515151 !important;
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parallax {
+      background-image: url("fn2.jpg");
+      height: 100%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.t_orange {
+      font-size: 2.5em;
+      color: #db6918;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info_blue {
+      border-radius: 5px;  
+      text-align: center; 
+      background-color: #c5d7e5; 
+      font-size: 30px;
+      cursor: pointer;
+      margin-bottom: 15px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      transition: all 0.025s cubic-bezier(.25, .8, .25, 1);
+}
+
+.info_blue:hover {
+      box-shadow: 0 5px 15px rgba(197, 215, 229, 0.75), 0 3px 9px rgba(197, 215, 229, 0.25);
+}
+
+
+
+
+.makeit_yes {
+      border-radius: 5px;  
+      text-align: center; 
+      color: white; 
+      background-color: #f9cf30; 
+      font-size: 2.5em;
+      cursor: pointer;
+      margin-bottom: 15px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      transition: all 0.025s cubic-bezier(.25, .8, .25, 1);
+}
+
+.makeit_yes:hover {
+      box-shadow: 0 10px 30px rgba(204, 158, 0, 0.75), 0 5px 15px rgba(204, 158, 0, 0.25);
+} 
+
+
+.makeit_no {
+      border-radius: 5px;  
+      text-align: center; 
+      color: white; 
+      background-color: #c66017; 
+      font-size: 2.5em;
+      cursor: pointer;
+      margin-bottom: 15px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      transition: all 0.025s cubic-bezier(.25, .8, .25, 1);
+}
+
+.makeit_no:hover {
+      box-shadow: 0 10px 30px rgba(204, 158, 0, 0.75), 0 5px 15px rgba(204, 158, 0, 0.25);
+} 
+
+
+
+    
+    
+    
+    
+    
+    
